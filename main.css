@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    padding-top: 10px;
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+.logo{
+    padding: 20px 20px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+    font-size: larger;
+}
+.container{
+    height: calc(100% - 12%);
+    width: 100%;
+    display: flex;
+    
+}
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 90px;
+
+}
+
+.right{
+    
+    height: 100%;
+    width: 50%;
+    padding: 90px;
+    
+}
+.img{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-image: url(./image.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+span{
+    color: red;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    color: red;
+}
